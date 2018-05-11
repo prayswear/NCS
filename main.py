@@ -5,7 +5,7 @@ logging.config.fileConfig('logging.conf')
 logger = logging.getLogger('myLogger')
 
 if __name__ == '__main__':
-    ncs_ip, ncs_port = '127.0.0.1', 22700
+    ncs_ip, ncs_port = '192.168.150.241', 22700
     db_ip, db_port = '127.0.0.1', 27017
     db_name="ncs"
     tbl_name="NCS_tbl"

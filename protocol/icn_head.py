@@ -2,7 +2,7 @@ import logging.config
 import binascii
 from util.util import int2byte
 
-logging.config.fileConfig('../logging.conf')
+logging.config.fileConfig('logging.conf')
 logger = logging.getLogger('myLogger')
 
 class ICNPacket():

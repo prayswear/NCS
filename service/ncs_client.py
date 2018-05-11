@@ -4,7 +4,7 @@ from protocol.icn_head import ICNPacket
 import binascii
 from util.util import int2byte
 
-logging.config.fileConfig('../logging.conf')
+logging.config.fileConfig('logging.conf')
 logger = logging.getLogger('myLogger')
 
 
@@ -92,7 +92,7 @@ class NcsClient():
 
 
 if __name__ == "__main__":
-    ncs_address = "127.0.0.1"
+    ncs_address = "192.168.150.241"
     ncs_port = 22700
     client = NcsClient(ncs_address, ncs_port)
 

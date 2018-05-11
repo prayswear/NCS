@@ -7,7 +7,7 @@ from util.db_tool import myDB
 from util import hash
 from util.util import int2byte
 
-logging.config.fileConfig("../logging.conf")
+logging.config.fileConfig("logging.conf")
 logger = logging.getLogger("myLogger")
 
 class NcsServer():
@@ -42,7 +42,7 @@ class NcsServer():
         payload=packet.payload
         cmd_type=int(binascii.b2a_hex(payload[:1]),16)
         reply=ICNPacket()
-        reply.setHeader("c50000000000000000000000000000c5","d5700000000000000000000000000s57","00")
+        reply.setHeader("c50000000000000000000000000000c5","d5700000000000000000000000000d57","00")
         if cmd_type==1:
             reply.setPayload(self.register(payload))
         elif cmd_type==3:
