@@ -1,94 +1,12 @@
-[2018-05-11 09:28:06,146] db_tool.py [line:20] INFO: Get connection client.
-[2018-05-11 09:28:06,147] db_tool.py [line:22] INFO: Get database: ncs
-[2018-05-11 09:28:06,147] ncs_server.py [line:31] INFO: NCS Server started...
-[2018-05-11 09:28:06,147] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:33:25,343] db_tool.py [line:20] INFO: Get connection client.
-[2018-05-11 09:33:25,344] db_tool.py [line:22] INFO: Get database: ncs
-[2018-05-11 09:33:25,344] ncs_server.py [line:31] INFO: NCS Server started...
-[2018-05-11 09:33:25,345] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:33:28,957] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.100.149', 52899)
-[2018-05-11 09:33:28,957] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x01\x04lijq'
-[2018-05-11 09:33:28,957] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:33:28,960] db_tool.py [line:37] INFO: Find {'EID': '7ee30ed78da46257a17047254b7d6a4b'} item in NCS_tbl, result is None
-[2018-05-11 09:33:28,968] db_tool.py [line:28] INFO: Add new item: {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961204), 'HRN': 'lijq', 'EID': '7ee30ed78da46257a17047254b7d6a4b', '_id': ObjectId('5af4f2e8caaeca948992fcc7')} to NCS_tbl
-[2018-05-11 09:35:23,042] db_tool.py [line:20] INFO: Get connection client.
-[2018-05-11 09:35:23,043] db_tool.py [line:22] INFO: Get database: ncs
-[2018-05-11 09:35:23,043] ncs_server.py [line:31] INFO: NCS Server started...
-[2018-05-11 09:35:23,043] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:35:25,231] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.100.149', 53012)
-[2018-05-11 09:35:25,232] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x01\x04lijq'
-[2018-05-11 09:35:25,232] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:35:25,236] db_tool.py [line:37] INFO: Find {'EID': '7ee30ed78da46257a17047254b7d6a4b'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:35:25,236] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 020200000000000000000000000000000000
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:35:52,022] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.100.149', 53013)
-[2018-05-11 09:35:52,022] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x06alijq2'
-[2018-05-11 09:35:52,022] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:35:52,023] db_tool.py [line:37] INFO: Find {'HRN': 'alijq2'} item in NCS_tbl, result is None
-[2018-05-11 09:35:52,024] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 040200000000000000000000000000000000
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:35:57,550] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.100.149', 53014)
-[2018-05-11 09:35:57,550] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x06alijq2'
-[2018-05-11 09:35:57,550] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:35:57,552] db_tool.py [line:37] INFO: Find {'HRN': 'alijq2'} item in NCS_tbl, result is None
-[2018-05-11 09:35:57,552] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 040200000000000000000000000000000000
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:38:44,362] db_tool.py [line:20] INFO: Get connection client.
-[2018-05-11 09:38:44,363] db_tool.py [line:22] INFO: Get database: ncs
-[2018-05-11 09:38:44,364] ncs_server.py [line:31] INFO: NCS Server started...
-[2018-05-11 09:38:44,364] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:38:46,453] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.100.149', 53438)
-[2018-05-11 09:38:46,454] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x06alijq2'
-[2018-05-11 09:38:46,454] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:38:46,457] db_tool.py [line:37] INFO: Find {'HRN': 'alijq2'} item in NCS_tbl, result is None
-[2018-05-11 09:38:46,458] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 040200000000000000000000000000000000
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:47:43,040] ncs_client.py [line:33] ERROR: Timeout
-[2018-05-11 09:47:53,999] db_tool.py [line:20] INFO: Get connection client.
-[2018-05-11 09:47:54,000] db_tool.py [line:22] INFO: Get database: ncs
-[2018-05-11 09:47:54,001] ncs_server.py [line:31] INFO: NCS Server started...
-[2018-05-11 09:47:54,001] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:47:56,638] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 40412)
-[2018-05-11 09:47:56,638] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:47:56,639] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:47:56,642] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:47:56,643] icn_head.py [line:67] INFO: 
+[2018-05-11 10:33:45,814] db_tool.py [line:20] INFO: Get connection client.
+[2018-05-11 10:33:45,816] db_tool.py [line:22] INFO: Get database: ncs
+[2018-05-11 10:33:45,816] ncs_server.py [line:31] INFO: NCS Server started...
+[2018-05-11 10:33:45,816] ncs_server.py [line:33] INFO: Waiting for packet...
+[2018-05-11 10:34:04,480] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 44857)
+[2018-05-11 10:34:04,480] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
+[2018-05-11 10:34:04,480] ncs_server.py [line:33] INFO: Waiting for packet...
+[2018-05-11 10:34:04,484] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'EID': '7ee30ed78da46257a17047254b7d6a4b', '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), 'HRN': 'lijq'}
+[2018-05-11 10:34:04,484] icn_head.py [line:67] INFO: 
 ###ICN PACKET###
 # src guid: c50000000000000000000000000000c5
 # dst_guid: d5700000000000000000000000000d57
@@ -99,7 +17,11 @@
 # payload: 04017ee30ed78da46257a17047254b7d6a4b
 # payload_len: 18 Bytes
 ################
-[2018-05-11 09:47:56,643] icn_head.py [line:67] INFO: 
+[2018-05-11 10:34:05,929] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 42411)
+[2018-05-11 10:34:05,929] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
+[2018-05-11 10:34:05,929] ncs_server.py [line:33] INFO: Waiting for packet...
+[2018-05-11 10:34:05,931] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'EID': '7ee30ed78da46257a17047254b7d6a4b', '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), 'HRN': 'lijq'}
+[2018-05-11 10:34:05,931] icn_head.py [line:67] INFO: 
 ###ICN PACKET###
 # src guid: c50000000000000000000000000000c5
 # dst_guid: d5700000000000000000000000000d57
@@ -110,11 +32,11 @@
 # payload: 04017ee30ed78da46257a17047254b7d6a4b
 # payload_len: 18 Bytes
 ################
-[2018-05-11 09:47:58,307] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 56637)
-[2018-05-11 09:47:58,307] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:47:58,308] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:47:58,309] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:47:58,310] icn_head.py [line:67] INFO: 
+[2018-05-11 10:34:07,140] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 47925)
+[2018-05-11 10:34:07,140] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
+[2018-05-11 10:34:07,141] ncs_server.py [line:33] INFO: Waiting for packet...
+[2018-05-11 10:34:07,142] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'EID': '7ee30ed78da46257a17047254b7d6a4b', '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), 'HRN': 'lijq'}
+[2018-05-11 10:34:07,143] icn_head.py [line:67] INFO: 
 ###ICN PACKET###
 # src guid: c50000000000000000000000000000c5
 # dst_guid: d5700000000000000000000000000d57
@@ -125,7 +47,11 @@
 # payload: 04017ee30ed78da46257a17047254b7d6a4b
 # payload_len: 18 Bytes
 ################
-[2018-05-11 09:47:58,310] icn_head.py [line:67] INFO: 
+[2018-05-11 10:34:07,140] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 47925)
+[2018-05-11 10:34:07,140] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
+[2018-05-11 10:34:07,141] ncs_server.py [line:33] INFO: Waiting for packet...
+[2018-05-11 10:34:07,142] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'EID': '7ee30ed78da46257a17047254b7d6a4b', '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), 'HRN': 'lijq'}
+[2018-05-11 10:34:07,143] icn_head.py [line:67] INFO: 
 ###ICN PACKET###
 # src guid: c50000000000000000000000000000c5
 # dst_guid: d5700000000000000000000000000d57
@@ -136,11 +62,7 @@
 # payload: 04017ee30ed78da46257a17047254b7d6a4b
 # payload_len: 18 Bytes
 ################
-[2018-05-11 09:47:59,088] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 43401)
-[2018-05-11 09:47:59,088] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:47:59,088] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:47:59,090] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:47:59,090] icn_head.py [line:67] INFO: 
+[2018-05-11 10:34:07,143] icn_head.py [line:67] INFO: 
 ###ICN PACKET###
 # src guid: c50000000000000000000000000000c5
 # dst_guid: d5700000000000000000000000000d57
@@ -150,321 +72,4 @@
 # tlv: 
 # payload: 04017ee30ed78da46257a17047254b7d6a4b
 # payload_len: 18 Bytes
-################
-[2018-05-11 09:47:59,091] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:47:59,681] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 39624)
-[2018-05-11 09:47:59,681] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:47:59,681] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:47:59,683] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:47:59,683] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:47:59,684] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:00,140] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 59585)
-[2018-05-11 09:48:00,140] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:48:00,141] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:48:00,143] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:48:00,143] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:00,144] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:00,618] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 33271)
-[2018-05-11 09:48:00,618] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:48:00,618] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:48:00,620] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:48:00,620] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:00,620] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:01,071] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 53450)
-[2018-05-11 09:48:01,071] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:48:01,071] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:48:01,073] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:48:01,073] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:01,073] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:01,543] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 48705)
-[2018-05-11 09:48:01,543] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:48:01,543] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:48:01,545] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:48:01,545] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:01,545] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:02,019] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 56138)
-[2018-05-11 09:48:02,019] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:48:02,019] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:48:02,021] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:48:02,021] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:02,022] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:02,474] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 52609)
-[2018-05-11 09:48:02,475] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:48:02,475] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:48:02,477] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:48:02,477] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:02,477] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:02,922] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 47056)
-[2018-05-11 09:48:02,923] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:48:02,923] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:48:02,925] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:48:02,925] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:02,925] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:03,392] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 56400)
-[2018-05-11 09:48:03,392] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:48:03,392] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:48:03,394] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:48:03,394] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:03,394] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:04,207] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.150.241', 41522)
-[2018-05-11 09:48:04,207] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x04lijq'
-[2018-05-11 09:48:04,207] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:48:04,209] db_tool.py [line:37] INFO: Find {'HRN': 'lijq'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 33, 28, 961000), '_id': ObjectId('5af4f2e8caaeca948992fcc7'), 'EID': '7ee30ed78da46257a17047254b7d6a4b', 'HRN': 'lijq'}
-[2018-05-11 09:48:04,209] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:48:04,210] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 04017ee30ed78da46257a17047254b7d6a4b
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:49:47,540] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.100.149', 60638)
-[2018-05-11 09:49:47,540] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x03\x06alijq2'
-[2018-05-11 09:49:47,540] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:49:47,542] db_tool.py [line:37] INFO: Find {'HRN': 'alijq2'} item in NCS_tbl, result is None
-[2018-05-11 09:49:47,543] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 040200000000000000000000000000000000
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:49:59,457] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.100.149', 60639)
-[2018-05-11 09:49:59,458] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x01\x05lijq1'
-[2018-05-11 09:49:59,458] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:49:59,460] db_tool.py [line:37] INFO: Find {'EID': '797797fd3c348d2fc520e51fd62678c7'} item in NCS_tbl, result is None
-[2018-05-11 09:49:59,461] db_tool.py [line:28] INFO: Add new item: {'lmt': datetime.datetime(2018, 5, 11, 9, 49, 59, 460383), '_id': ObjectId('5af4f6c7caaeca9bef484f80'), 'EID': '797797fd3c348d2fc520e51fd62678c7', 'HRN': 'lijq1'} to NCS_tbl
-[2018-05-11 09:49:59,462] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 0201797797fd3c348d2fc520e51fd62678c7
-# payload_len: 18 Bytes
-################
-[2018-05-11 09:50:32,162] ncs_server.py [line:35] INFO: Recieve an UDP packet from ('192.168.100.149', 63750)
-[2018-05-11 09:50:32,163] ncs_server.py [line:36] INFO: b'"l\xf1\x19\xb7\x88%\xf1r\x0c\xf2\xcaH\\-\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x07\xa1\x05yw\x97\xfd<4\x8d/\xc5 \xe5\x1f\xd6&x\xc7'
-[2018-05-11 09:50:32,163] ncs_server.py [line:33] INFO: Waiting for packet...
-[2018-05-11 09:50:32,166] db_tool.py [line:37] INFO: Find {'EID': '797797fd3c348d2fc520e51fd62678c7'} item in NCS_tbl, result is {'lmt': datetime.datetime(2018, 5, 11, 9, 49, 59, 460000), '_id': ObjectId('5af4f6c7caaeca9bef484f80'), 'EID': '797797fd3c348d2fc520e51fd62678c7', 'HRN': 'lijq1'}
-[2018-05-11 09:50:32,166] icn_head.py [line:67] INFO: 
-###ICN PACKET###
-# src guid: c50000000000000000000000000000c5
-# dst_guid: d5700000000000000000000000000d57
-# service type: 00
-# header length: 36
-# header checksum: 0357
-# tlv: 
-# payload: 0601056c696a7131
-# payload_len: 8 Bytes
 ################

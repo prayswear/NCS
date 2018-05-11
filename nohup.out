@@ -1,0 +1,10 @@
+[2018-05-11 09:54:44,131] db_tool.py [line:20] INFO: Get connection client.
+[2018-05-11 09:54:44,131] db_tool.py [line:22] INFO: Get database: ncs
+[2018-05-11 09:54:44,132] ncs_server.py [line:31] INFO: NCS Server started...
+[2018-05-11 09:54:44,132] ncs_server.py [line:33] INFO: Waiting for packet...
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    server.start()
+  File "/home/lijq/src/NCS/service/ncs_server.py", line 34, in start
+    data, address = server_socket.recvfrom(self.UDP_MTU)
+KeyboardInterrupt
